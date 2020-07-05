@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <title>AdClicker</title>
+</head>
+
+<body>
+  <div id="root">
+    <header class="header">
+      <nav class="nav">
+        <ul>
+          <router-link to="/widget" tag="li">Перейти к widget</router-link>
+          <router-link to="/stat" tag="li">Перейти к Stat</router-link>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <router-view class="main__content" />
+    </main>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

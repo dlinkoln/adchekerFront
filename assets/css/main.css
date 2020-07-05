@@ -1,0 +1,32 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.widget{
+  width: 492px;
+  height: 328px;
+}
+.nav ul{
+  display: flex;
+  align-items: center;
+}
+.nav li{
+  display: flex;
+  font-family: sans-serif;
+  justify-content: center;
+  list-style-type: none;
+  align-items: center;
+  border: 1px solid #c7c7c7;
+  width: 150px;
+  height: 45px;
+  cursor: pointer;
+}
+.nav li:hover {
+  background:#ecebeb;
+  transition:0.8s ease;
+}
+.main__content{
+  width: 80%;
+  font-family: sans-serif;
+  margin:  5rem auto;
+}
